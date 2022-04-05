@@ -1,0 +1,28 @@
+@import "smart-grid";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+$text: #606F81;
+$title: #384758;
+$orange: #fe8700;
+
+@import 'BackgroundStatic';
+@import 'Title';
+@import 'Slider';
+@import 'Posts';
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.wrapper {
+  @include wrapper();
+  position: relative;
+}
+
+
